@@ -19,20 +19,14 @@ const CTASection = () => {
           {/* Animated Background Pattern */}
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
-              animate={{ 
-                scale: [1, 1.3, 1],
-                rotate: [0, 45, 0]
-              }}
+              animate={{ scale: [1, 1.3, 1], rotate: [0, 45, 0] }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
               className="absolute -top-1/2 -right-1/2 w-full h-full opacity-10"
             >
               <div className="w-96 h-96 rounded-full bg-primary-foreground blur-3xl" />
             </motion.div>
             <motion.div
-              animate={{ 
-                scale: [1.3, 1, 1.3],
-                rotate: [0, -45, 0]
-              }}
+              animate={{ scale: [1.3, 1, 1.3], rotate: [0, -45, 0] }}
               transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
               className="absolute -bottom-1/2 -left-1/2 w-full h-full opacity-10"
             >
@@ -57,7 +51,7 @@ const CTASection = () => {
                 Ready to Transform Your Operations?
               </h2>
               <p className="text-lg md:text-xl text-primary-foreground/80 mb-8">
-                See how NexusOps can become the execution backbone for your enterprise. 
+                See how For Axis can become the execution backbone for your enterprise. 
                 Schedule a personalized demo with our team and discover the possibilities.
               </p>
               
@@ -72,11 +66,7 @@ const CTASection = () => {
                   </Button>
                 </Link>
                 <Link to="/contact">
-                  <Button
-                    variant="hero-outline"
-                    size="xl"
-                    className="w-full sm:w-auto"
-                  >
+                  <Button variant="hero-outline" size="xl" className="w-full sm:w-auto">
                     Talk to Sales
                   </Button>
                 </Link>

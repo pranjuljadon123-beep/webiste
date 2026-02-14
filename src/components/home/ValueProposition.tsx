@@ -1,55 +1,20 @@
 import { motion } from "framer-motion";
 import { CheckCircle2, TrendingDown, Zap, Shield, Target, Clock } from "lucide-react";
-import dashboardAi from "@/assets/dashboard-ai.png";
+import containerPort from "@/assets/container-port.jpg";
 
 const benefits = [
-  {
-    icon: Zap,
-    title: "Faster Execution",
-    stat: "40%",
-    description: "reduction in order-to-delivery cycle time",
-  },
-  {
-    icon: TrendingDown,
-    title: "Lower Costs",
-    stat: "25%",
-    description: "savings through intelligent procurement",
-  },
-  {
-    icon: Shield,
-    title: "Better Compliance",
-    stat: "99%",
-    description: "audit-ready documentation accuracy",
-  },
-  {
-    icon: CheckCircle2,
-    title: "Smarter Decisions",
-    stat: "3x",
-    description: "faster insights with AI recommendations",
-  },
+  { icon: Zap, title: "Faster Execution", stat: "40%", description: "reduction in order-to-delivery cycle time" },
+  { icon: TrendingDown, title: "Lower Costs", stat: "25%", description: "savings through intelligent procurement" },
+  { icon: Shield, title: "Better Compliance", stat: "99%", description: "audit-ready documentation accuracy" },
+  { icon: CheckCircle2, title: "Smarter Decisions", stat: "3x", description: "faster insights with AI recommendations" },
 ];
 
 const features = [
-  {
-    icon: Target,
-    title: "Unified data layer across all operational touchpoints",
-  },
-  {
-    icon: Zap,
-    title: "AI agents that automate routine decisions",
-  },
-  {
-    icon: CheckCircle2,
-    title: "Explainable insights you can trust and act on",
-  },
-  {
-    icon: Shield,
-    title: "Enterprise-grade security and compliance built-in",
-  },
-  {
-    icon: Clock,
-    title: "Real-time visibility into every operation",
-  },
+  { icon: Target, title: "Unified data layer across all operational touchpoints" },
+  { icon: Zap, title: "AI agents that automate routine decisions" },
+  { icon: CheckCircle2, title: "Explainable insights you can trust and act on" },
+  { icon: Shield, title: "Enterprise-grade security and compliance built-in" },
+  { icon: Clock, title: "Real-time visibility into every operation" },
 ];
 
 const ValueProposition = () => {
@@ -65,14 +30,14 @@ const ValueProposition = () => {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-              Why NexusOps
+              Why For Axis
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
               Systems of Record.{" "}
               <span className="gradient-text">Systems of Intelligence.</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Traditional operations tools give you visibility. NexusOps gives you control. 
+              Traditional operations tools give you visibility. For Axis gives you control. 
               We don't just track your operations — we power them with AI that understands 
               context, predicts outcomes, and recommends actions.
             </p>
@@ -96,7 +61,7 @@ const ValueProposition = () => {
             </div>
           </motion.div>
 
-          {/* Right - Dashboard Image & Stats */}
+          {/* Right - Shipping Image & Stats */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -104,11 +69,10 @@ const ValueProposition = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            {/* Dashboard Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
               <img
-                src={dashboardAi}
-                alt="AI Analytics Dashboard"
+                src={containerPort}
+                alt="Container port operations"
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-card/80 via-transparent to-transparent" />

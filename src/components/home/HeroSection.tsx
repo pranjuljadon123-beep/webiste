@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Sparkles, Globe, Shield, Zap } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroShipping from "@/assets/hero-shipping.jpg";
+import foraxisLogo from "@/assets/foraxis-logo.png";
 
 const floatingCards = [
   { icon: Globe, label: "Global Visibility", delay: 0 },
@@ -16,8 +17,8 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroBg}
-          alt=""
+          src={heroShipping}
+          alt="Container ship at sea"
           className="w-full h-full object-cover"
           loading="eager"
         />
@@ -27,18 +28,12 @@ const HeroSection = () => {
       {/* Animated Background Elements */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <motion.div
-          animate={{ 
-            scale: [1, 1.2, 1],
-            opacity: [0.1, 0.2, 0.1] 
-          }}
+          animate={{ scale: [1, 1.2, 1], opacity: [0.1, 0.2, 0.1] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
           className="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-primary/20 blur-3xl"
         />
         <motion.div
-          animate={{ 
-            scale: [1.2, 1, 1.2],
-            opacity: [0.1, 0.15, 0.1] 
-          }}
+          animate={{ scale: [1.2, 1, 1.2], opacity: [0.1, 0.15, 0.1] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
           className="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-ocean/20 blur-3xl"
         />
@@ -107,7 +102,7 @@ const HeroSection = () => {
               className="mt-12 grid grid-cols-3 gap-8"
             >
               {[
-                { value: "500+", label: "Enterprise Clients" },
+                { value: "6", label: "Integrated Modules" },
                 { value: "40%", label: "Cost Reduction" },
                 { value: "99.9%", label: "Uptime SLA" },
               ].map((stat, index) => (
@@ -136,12 +131,7 @@ const HeroSection = () => {
                 >
                   <motion.div
                     animate={{ y: [0, -10, 0] }}
-                    transition={{ 
-                      duration: 3 + index * 0.5, 
-                      repeat: Infinity, 
-                      ease: "easeInOut",
-                      delay: index * 0.3 
-                    }}
+                    transition={{ duration: 3 + index * 0.5, repeat: Infinity, ease: "easeInOut", delay: index * 0.3 }}
                     className="bg-card/90 backdrop-blur-lg rounded-2xl p-5 shadow-xl border border-border/50"
                   >
                     <div className="flex items-center gap-3">
@@ -168,10 +158,8 @@ const HeroSection = () => {
                   <div className="absolute inset-0 rounded-3xl gradient-hero opacity-20 blur-2xl" />
                   <div className="relative bg-card/80 backdrop-blur-xl rounded-3xl p-6 border border-border/50 shadow-2xl h-full flex items-center justify-center">
                     <div className="text-center">
-                      <div className="w-20 h-20 rounded-2xl gradient-hero mx-auto mb-4 flex items-center justify-center">
-                        <span className="text-4xl font-bold text-primary-foreground">N</span>
-                      </div>
-                      <div className="text-xl font-bold text-foreground">NexusOps</div>
+                      <img src={foraxisLogo} alt="For Axis" className="w-20 h-20 rounded-2xl mx-auto mb-4 object-cover" />
+                      <div className="text-xl font-bold text-foreground">For Axis</div>
                       <div className="text-sm text-muted-foreground mt-1">Execution Platform</div>
                     </div>
                   </div>

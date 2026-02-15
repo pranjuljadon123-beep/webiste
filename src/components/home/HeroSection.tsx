@@ -158,8 +158,8 @@ const HeroSection = () => {
                   <div className="absolute inset-0 rounded-3xl gradient-hero opacity-20 blur-2xl" />
                   <div className="relative bg-card/80 backdrop-blur-xl rounded-3xl p-6 border border-border/50 shadow-2xl h-full flex items-center justify-center">
                     <div className="text-center">
-                      <img src={foraxisLogo} alt="For Axis" className="w-20 h-20 rounded-2xl mx-auto mb-4 object-cover" />
-                      <div className="text-xl font-bold text-foreground">For Axis</div>
+                      <img src={foraxisLogo} alt="ForAxis" className="w-20 h-20 rounded-2xl mx-auto mb-4 object-cover" />
+                      <div className="text-xl font-bold text-foreground">ForAxis</div>
                       <div className="text-sm text-muted-foreground mt-1">Execution Platform</div>
                     </div>
                   </div>

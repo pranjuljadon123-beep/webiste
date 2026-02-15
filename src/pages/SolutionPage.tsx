@@ -20,7 +20,7 @@ const solutionsData = {
     subtitle: "The Execution Spine",
     heroDescription: "Every operation starts with an order. Our order management module serves as the central system of record, linking every downstream workflow to its source of truth.",
     problem: "Orders are scattered across ERPs, spreadsheets, and emails. When something goes wrong, finding the source of truth takes hours. Downstream teams work with outdated information. Manual processes lead to errors, delays, and frustrated teams.",
-    solution: "For Axis Order Management creates a unified, real-time view of every order. From creation to completion, every change is tracked, every stakeholder is notified, and every related process stays synchronized. It's the foundation everything else builds on.",
+    solution: "ForAxis Order Management creates a unified, real-time view of every order. From creation to completion, every change is tracked, every stakeholder is notified, and every related process stays synchronized. It's the foundation everything else builds on.",
     image: dashboardOrders,
     stats: [
       { value: "60%", label: "Faster Processing" },
@@ -42,7 +42,7 @@ const solutionsData = {
       { title: "Smart Notifications", description: "Alert the right people at the right time based on order events and exceptions." },
     ],
     faqs: [
-      { question: "How does this integrate with our existing ERP?", answer: "For Axis integrates with all major ERPs via API or file-based integration. Orders can sync bidirectionally, with For Axis serving as the operational layer on top." },
+      { question: "How does this integrate with our existing ERP?", answer: "ForAxis integrates with all major ERPs via API or file-based integration. Orders can sync bidirectionally, with ForAxis serving as the operational layer on top." },
       { question: "Can we customize the order fields and workflows?", answer: "Yes. Every field, status, and workflow can be customized to match your industry and processes. No coding required for most configurations." },
       { question: "How do we handle orders from multiple channels?", answer: "Orders from any channel—web portals, API, EDI, email—are normalized into a single format while preserving source information for traceability." },
     ],
@@ -53,7 +53,7 @@ const solutionsData = {
     subtitle: "Auto-Generate. Auto-Manage.",
     heroDescription: "Documents are auto-generated from order and execution data, ensuring consistency and compliance. Version control, approvals, and collaboration built-in.",
     problem: "Documents are created manually, leading to errors and inconsistencies. Version control via email causes confusion. Finding the right document at audit time is a nightmare. Compliance teams spend hours chasing paperwork.",
-    solution: "For Axis Document Intelligence auto-generates documents from operational data, manages versions intelligently, and links every document to its related transactions. Say goodbye to document chaos.",
+    solution: "ForAxis Document Intelligence auto-generates documents from operational data, manages versions intelligently, and links every document to its related transactions. Say goodbye to document chaos.",
     image: dashboardDocs,
     stats: [
       { value: "80%", label: "Time Saved" },
@@ -119,7 +119,7 @@ const solutionsData = {
     subtitle: "Multi-Modal Visibility",
     heroDescription: "Track shipments across all modes with predictive ETAs and proactive exception alerts. Every shipment links back to its originating order.",
     problem: "Visibility is fragmented across carriers and modes. ETAs are unreliable. Exceptions are discovered too late to respond effectively. Teams are frustrated with lack of updates.",
-    solution: "For Axis Tracking provides unified visibility across all carriers and modes, with predictive ETAs and proactive exception management. Know what's happening before it becomes a problem.",
+    solution: "ForAxis Tracking provides unified visibility across all carriers and modes, with predictive ETAs and proactive exception management. Know what's happening before it becomes a problem.",
     image: dashboardTracking,
     stats: [
       { value: "30%", label: "Better ETAs" },
@@ -152,7 +152,7 @@ const solutionsData = {
     subtitle: "Match. Verify. Pay.",
     heroDescription: "Automatically match invoices with contracts, orders, and delivery documents. Highlight discrepancies before they become problems.",
     problem: "Manual invoice matching is slow and error-prone. Discrepancies are caught late, causing disputes and delayed payments. Finance teams are overwhelmed with exception handling.",
-    solution: "For Axis Invoice Reconciliation automates three-way matching, highlights discrepancies instantly, and streamlines the resolution process. Your finance team will thank you.",
+    solution: "ForAxis Invoice Reconciliation automates three-way matching, highlights discrepancies instantly, and streamlines the resolution process. Your finance team will thank you.",
     image: dashboardDocs,
     stats: [
       { value: "90%", label: "Auto-Matched" },
@@ -185,7 +185,7 @@ const solutionsData = {
     subtitle: "Intelligence You Can Trust",
     heroDescription: "Predictive insights and recommendations powered by AI that explains its reasoning. No black boxes—just actionable intelligence.",
     problem: "AI tools are either too simple or too opaque. Predictions without explanations don't drive action. Automation without guardrails creates risk. Your team doesn't trust the recommendations.",
-    solution: "For Axis AI Engine combines predictive analytics with explainable recommendations and controlled automation—AI you can trust and act on. Every recommendation shows its reasoning.",
+    solution: "ForAxis AI Engine combines predictive analytics with explainable recommendations and controlled automation—AI you can trust and act on. Every recommendation shows its reasoning.",
     image: dashboardAi,
     stats: [
       { value: "3x", label: "Faster Decisions" },

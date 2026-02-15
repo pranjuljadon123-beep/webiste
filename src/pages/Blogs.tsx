@@ -84,12 +84,8 @@ const Blogs = () => {
                     to={`/blogs/${post.slug}`}
                     className="group bg-card rounded-2xl overflow-hidden border border-border hover:border-primary/30 transition-all hover:shadow-xl block h-full"
                   >
-                    <div className="aspect-video gradient-hero relative overflow-hidden">
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-6xl font-bold text-primary-foreground/20">
-                          {post.title.charAt(0)}
-                        </span>
-                      </div>
+                    <div className="aspect-video relative overflow-hidden">
+                      <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                       <motion.div
                         className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent"
                         initial={{ opacity: 0 }}
@@ -166,12 +162,8 @@ const Blogs = () => {
                   to={`/blogs/${post.slug}`}
                   className="group bg-background rounded-xl overflow-hidden border border-border hover:border-primary/30 transition-all hover:shadow-lg block h-full"
                 >
-                  <div className="aspect-[16/10] bg-accent relative">
-                    <div className="absolute inset-0 flex items-center justify-center gradient-subtle">
-                      <span className="text-4xl font-bold text-primary/10">
-                        {post.title.charAt(0)}
-                      </span>
-                    </div>
+                  <div className="aspect-[16/10] relative overflow-hidden">
+                    <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   </div>
                   <div className="p-5">
                     <div className="flex items-center gap-3 mb-3">

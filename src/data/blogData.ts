@@ -1,9 +1,16 @@
+import blogExecutionSystems from "@/assets/blog/blog-execution-systems.jpg";
+import blogAiOperations from "@/assets/blog/blog-ai-operations.jpg";
+import blogOrdersIntelligence from "@/assets/blog/blog-orders-intelligence.jpg";
+import blogDocumentIntelligence from "@/assets/blog/blog-document-intelligence.jpg";
+import blogReverseAuctions from "@/assets/blog/blog-reverse-auctions.jpg";
+
 export interface BlogPost {
   id: string;
   slug: string;
   title: string;
   excerpt: string;
   content: string;
+  image: string;
   author: {
     name: string;
     role: string;
@@ -19,6 +26,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: "1",
     slug: "why-execution-systems-matter-more-than-dashboards",
+    image: blogExecutionSystems,
     title: "Why Execution Systems Matter More Than Dashboards",
     excerpt:
       "In the age of real-time analytics, enterprises are drowning in dashboards but starving for execution. Here's why systems of record are the missing link.",
@@ -91,6 +99,7 @@ A: Execution systems integrate with ERPs, not replace them. The ERP remains the 
   {
     id: "2",
     slug: "future-of-ai-in-enterprise-operations",
+    image: blogAiOperations,
     title: "The Future of AI in Enterprise Operations",
     excerpt:
       "AI in operations is evolving from pattern recognition to decision execution. Here's what's coming and how to prepare.",
@@ -153,6 +162,7 @@ A: Most enterprises see measurable ROI within 6-12 months of deployment, startin
   {
     id: "3",
     slug: "orders-to-intelligence-building-system-of-record",
+    image: blogOrdersIntelligence,
     title: "From Orders to Intelligence: Building a System of Record",
     excerpt:
       "Your order data is the foundation for operational intelligence. Here's how to build a system that connects execution to insight.",
@@ -220,6 +230,7 @@ A: The system should include validation and enrichment. Poor data quality become
   {
     id: "4",
     slug: "document-intelligence-missing-layer-operations",
+    image: blogDocumentIntelligence,
     title: "Why Document Intelligence Is the Missing Layer in Operations",
     excerpt:
       "Documents are the DNA of operations, yet most are unstructured and disconnected. Here's how document intelligence changes the game.",
@@ -279,6 +290,7 @@ A: Enterprise-grade security, encryption, and access controls protect sensitive 
   {
     id: "5",
     slug: "reverse-auctions-without-chaos-blind-bidding",
+    image: blogReverseAuctions,
     title: "Reverse Auctions Without Chaos: How Blind Bidding Works",
     excerpt:
       "Reverse auctions can deliver incredible savings—or vendor relationships disasters. Here's how blind bidding gets the best of both.",

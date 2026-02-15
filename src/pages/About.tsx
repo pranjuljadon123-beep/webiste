@@ -39,7 +39,7 @@ const About = () => {
       <section className="py-20 lg:py-32 gradient-subtle overflow-hidden">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl mx-auto text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">About For Axis</span>
+            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">About ForAxis</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Building the Future of{" "}
               <span className="gradient-text">Operations</span>
@@ -79,7 +79,7 @@ const About = () => {
                 just track what's happening—but actually execute with intelligence.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                We built For Axis to be that system. A platform where every order, document,
+                We built ForAxis to be that system. A platform where every order, document,
                 shipment, and invoice is connected. Where AI doesn't just predict—it recommends
                 and executes. Where operations leaders can finally focus on strategy, not firefighting.
               </p>
@@ -101,7 +101,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-2xl mx-auto mb-16">
             <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Our Journey</span>
-            <h2 className="text-3xl md:text-4xl font-bold">The For Axis Story</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">The ForAxis Story</h2>
           </motion.div>
           <div className="max-w-3xl mx-auto">
             <div className="relative">

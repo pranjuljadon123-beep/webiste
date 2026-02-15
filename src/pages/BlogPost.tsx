@@ -129,7 +129,7 @@ const BlogPost = () => {
 
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="max-w-3xl mx-auto mt-16 p-8 rounded-2xl gradient-hero text-center">
             <h3 className="text-2xl font-bold text-primary-foreground mb-4">Ready to transform your operations?</h3>
-            <p className="text-primary-foreground/80 mb-6">See how For Axis can help you implement these insights.</p>
+            <p className="text-primary-foreground/80 mb-6">See how ForAxis can help you implement these insights.</p>
             <Link to="/demo"><Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">Request a Demo<ArrowRight className="ml-2" size={16} /></Button></Link>
           </motion.div>
         </div>

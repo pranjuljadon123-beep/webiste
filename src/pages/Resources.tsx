@@ -16,7 +16,7 @@ const Resources = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Resources & <span className="gradient-text">Learning</span></h1>
-            <p className="text-lg text-muted-foreground">Everything you need to understand modern operations and get the most from For Axis.</p>
+            <p className="text-lg text-muted-foreground">Everything you need to understand modern operations and get the most from ForAxis.</p>
           </div>
         </div>
       </section>

@@ -147,24 +147,6 @@ const HeroSection = () => {
                 </motion.div>
               ))}
 
-              {/* Main Dashboard Preview */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.8, delay: 0.3 }}
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80"
-              >
-                <div className="relative w-full h-full">
-                  <div className="absolute inset-0 rounded-3xl gradient-hero opacity-20 blur-2xl" />
-                  <div className="relative bg-card/80 backdrop-blur-xl rounded-3xl p-6 border border-border/50 shadow-2xl h-full flex items-center justify-center">
-                    <div className="text-center">
-                      <img src={foraxisLogo} alt="ForAxis" className="w-20 h-20 rounded-2xl mx-auto mb-4 object-cover" />
-                      <div className="text-xl font-bold text-foreground">ForAxis</div>
-                      <div className="text-sm text-muted-foreground mt-1">Execution Platform</div>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
             </div>
           </div>
         </div>

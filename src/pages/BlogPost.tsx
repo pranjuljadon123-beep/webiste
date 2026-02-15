@@ -57,10 +57,8 @@ const BlogPost = () => {
           </motion.header>
 
           <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.2 }} className="max-w-4xl mx-auto mb-12">
-            <div className="aspect-[2/1] rounded-2xl gradient-hero relative overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-8xl font-bold text-primary-foreground/10">{post.title.charAt(0)}</span>
-              </div>
+            <div className="aspect-[2/1] rounded-2xl relative overflow-hidden">
+              <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
             </div>
           </motion.div>
 

@@ -14,16 +14,9 @@ const About = () => {
   ];
 
   const milestones = [
-    { year: "2024", event: "Founded with a vision to transform operations" },
-    { year: "2025", event: "Platform development and early partnerships" },
-    { year: "2026", event: "Full platform launch with 6 integrated modules" },
-  ];
-
-  const team = [
-    { name: "Sarah Chen", role: "CEO & Co-Founder", bio: "15 years in supply chain" },
-    { name: "Michael Torres", role: "CTO & Co-Founder", bio: "AI/ML pioneer" },
-    { name: "David Park", role: "VP of Engineering", bio: "Built platforms at scale" },
-    { name: "Lisa Zhang", role: "VP of Product", bio: "Product leader" },
+    { year: "Early 2026", event: "Three friends in Bangalore come together with a shared vision to fix broken enterprise operations" },
+    { year: "Mid 2026", event: "ForAxis is born — platform development begins with a focus on execution-first design" },
+    { year: "2026", event: "Full platform launch with 6 integrated modules, headquartered in Bangalore, India" },
   ];
 
   const stats = [
@@ -74,14 +67,14 @@ const About = () => {
               <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Our Mission</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Empowering Operations Excellence</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Enterprise operations have become increasingly complex. Global supply chains,
-                regulatory requirements, and market demands require systems that don't
-                just track what's happening—but actually execute with intelligence.
+              ForAxis was founded in 2026 by three friends in Bangalore, India, who saw
+                firsthand how broken enterprise operations were — scattered across spreadsheets,
+                emails, and disconnected tools. They knew there had to be a better way.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                We built ForAxis to be that system. A platform where every order, document,
-                shipment, and invoice is connected. Where AI doesn't just predict—it recommends
-                and executes. Where operations leaders can finally focus on strategy, not firefighting.
+                What started as a shared frustration became ForAxis — a platform where every order,
+                document, shipment, and invoice is connected. Where AI doesn't just predict — it
+                recommends and executes. Built from Bangalore for the world.
               </p>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="relative">
@@ -142,26 +135,22 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Origin Story */}
       <section className="py-20 lg:py-32 bg-card">
         <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-2xl mx-auto mb-16">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Leadership</span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Meet Our Team</h2>
-            <p className="text-lg text-muted-foreground">Experienced operators and technologists building for operations.</p>
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-2xl mx-auto">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Our Roots</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Born in Bangalore</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Three friends, one shared frustration, and a relentless drive to fix enterprise operations.
+              ForAxis is proudly headquartered in Bangalore, India — building world-class technology
+              for global enterprises.
+            </p>
+            <div className="flex items-center justify-center gap-2 mt-6 text-muted-foreground">
+              <Globe className="w-5 h-5 text-primary" />
+              <span className="text-sm font-medium">Bangalore, India · Founded 2026</span>
+            </div>
           </motion.div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
-            {team.map((member, index) => (
-              <motion.div key={member.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: index * 0.05 }} className="text-center group">
-                <div className="w-20 h-20 rounded-full gradient-hero mx-auto mb-3 flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <span className="text-xl font-bold text-primary-foreground">{member.name.split(" ").map(n => n[0]).join("")}</span>
-                </div>
-                <h4 className="font-semibold text-sm">{member.name}</h4>
-                <p className="text-xs text-primary">{member.role}</p>
-                <p className="text-xs text-muted-foreground mt-1">{member.bio}</p>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </section>
 

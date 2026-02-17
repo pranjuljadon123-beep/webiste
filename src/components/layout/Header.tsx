@@ -134,8 +134,8 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-border animate-fade-in">
-            <nav className="flex flex-col gap-2">
+          <div className="lg:hidden fixed inset-x-0 top-16 bottom-0 bg-background z-50 overflow-y-auto animate-fade-in">
+            <nav className="flex flex-col gap-2 p-4">
               <div className="py-2">
                 <span className="text-sm font-semibold text-muted-foreground px-3">Platform</span>
                 <div className="mt-2 space-y-1">
@@ -153,40 +153,14 @@ const Header = () => {
                 </div>
               </div>
 
-              <Link
-                to="/platform"
-                className="px-3 py-2 rounded-lg hover:bg-accent transition-colors font-medium"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                How It Works
-              </Link>
-              <Link
-                to="/resources"
-                className="px-3 py-2 rounded-lg hover:bg-accent transition-colors font-medium"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Resources
-              </Link>
-              <Link
-                to="/blogs"
-                className="px-3 py-2 rounded-lg hover:bg-accent transition-colors font-medium"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Blog
-              </Link>
-              <Link
-                to="/about"
-                className="px-3 py-2 rounded-lg hover:bg-accent transition-colors font-medium"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Company
-              </Link>
+              <Link to="/platform" className="px-3 py-2 rounded-lg hover:bg-accent transition-colors font-medium" onClick={() => setMobileMenuOpen(false)}>How It Works</Link>
+              <Link to="/resources" className="px-3 py-2 rounded-lg hover:bg-accent transition-colors font-medium" onClick={() => setMobileMenuOpen(false)}>Resources</Link>
+              <Link to="/blogs" className="px-3 py-2 rounded-lg hover:bg-accent transition-colors font-medium" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
+              <Link to="/about" className="px-3 py-2 rounded-lg hover:bg-accent transition-colors font-medium" onClick={() => setMobileMenuOpen(false)}>Company</Link>
 
               <div className="pt-4 px-3">
                 <Link to="/demo" onClick={() => setMobileMenuOpen(false)}>
-                  <Button variant="hero" size="lg" className="w-full">
-                    Request a Demo
-                  </Button>
+                  <Button variant="hero" size="lg" className="w-full">Request a Demo</Button>
                 </Link>
               </div>
             </nav>

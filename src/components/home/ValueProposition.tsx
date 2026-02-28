@@ -70,10 +70,12 @@ const ValueProposition = () => {
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <img
+              <motion.img
                 src={containerPort}
                 alt="Container port operations"
                 className="w-full h-auto"
+                animate={{ scale: [1, 1.06, 1], x: [0, -10, 0] }}
+                transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-card/80 via-transparent to-transparent" />
             </div>

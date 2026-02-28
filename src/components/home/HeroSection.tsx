@@ -16,11 +16,13 @@ const HeroSection = () => {
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
+        <motion.img
           src={heroShipping}
           alt="Container ship at sea"
           className="w-full h-full object-cover"
           loading="eager"
+          animate={{ scale: [1, 1.05, 1], x: [0, -15, 0] }}
+          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/95 via-foreground/80 to-foreground/60" />
       </div>

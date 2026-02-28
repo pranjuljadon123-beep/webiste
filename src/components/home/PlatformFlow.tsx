@@ -130,10 +130,20 @@ const PlatformFlow = () => {
                 >
                   {/* Image Preview */}
                   <div className="relative h-40 overflow-hidden">
-                    <img
+                    <motion.img
                       src={module.image}
                       alt={module.title}
-                      className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-cover object-top"
+                      animate={{ 
+                        scale: [1.05, 1.1, 1.05], 
+                        y: [0, -8, 0],
+                        x: [0, index % 2 === 0 ? -5 : 5, 0]
+                      }}
+                      transition={{ 
+                        duration: 6 + index * 0.5, 
+                        repeat: Infinity, 
+                        ease: "easeInOut" 
+                      }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
                     

@@ -12,6 +12,7 @@ import dashboardOrders from "@/assets/dashboard-orders.png";
 import dashboardDocs from "@/assets/dashboard-docs.png";
 import dashboardAi from "@/assets/dashboard-ai.png";
 import dashboardTracking from "@/assets/dashboard-tracking.png";
+import DashboardAnimation from "@/components/ui/DashboardAnimation";
 
 const solutionsData = {
   "order-management": {
@@ -282,7 +283,7 @@ const SolutionPage = () => {
 
             <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, delay: 0.2 }} className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
-                <img src={solution.image} alt={solution.title} className="w-full h-auto" />
+                <DashboardAnimation src={solution.image} alt={solution.title} />
               </div>
               <div className="absolute -top-8 -right-8 w-32 h-32 gradient-hero opacity-20 rounded-full blur-2xl" />
               <div className="absolute -bottom-8 -left-8 w-32 h-32 gradient-hero opacity-20 rounded-full blur-2xl" />

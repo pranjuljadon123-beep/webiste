@@ -13,6 +13,8 @@ import dashboardOrders from "@/assets/dashboard-orders.png";
 import dashboardDocs from "@/assets/dashboard-docs.png";
 import dashboardAi from "@/assets/dashboard-ai.png";
 import dashboardTracking from "@/assets/dashboard-tracking.png";
+import dashboardProcurement from "@/assets/dashboard-procurement.png";
+import dashboardInvoices from "@/assets/dashboard-invoices.png";
 import DashboardAnimation from "@/components/ui/DashboardAnimation";
 
 const modules = [
@@ -38,7 +40,7 @@ const modules = [
     description: "Spot and contract RFQs with blind reverse auctioning for best pricing and fair competition.",
     color: "from-ocean to-ocean-light",
     slug: "procurement",
-    image: dashboardOrders,
+    image: dashboardProcurement,
   },
   {
     icon: Truck,
@@ -54,7 +56,7 @@ const modules = [
     description: "Match invoices with contracts, orders, and documents automatically with discrepancy detection.",
     color: "from-secondary to-teal",
     slug: "invoices",
-    image: dashboardDocs,
+    image: dashboardInvoices,
   },
   {
     icon: Brain,

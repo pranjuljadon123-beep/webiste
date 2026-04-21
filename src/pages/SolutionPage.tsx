@@ -12,6 +12,8 @@ import dashboardOrders from "@/assets/dashboard-orders.png";
 import dashboardDocs from "@/assets/dashboard-docs.png";
 import dashboardAi from "@/assets/dashboard-ai.png";
 import dashboardTracking from "@/assets/dashboard-tracking.png";
+import dashboardProcurement from "@/assets/dashboard-procurement.png";
+import dashboardInvoices from "@/assets/dashboard-invoices.png";
 import DashboardAnimation from "@/components/ui/DashboardAnimation";
 
 const solutionsData = {
@@ -88,7 +90,7 @@ const solutionsData = {
     heroDescription: "Run spot and contract RFQs with blind reverse auctions. Vendors see only their rank, not competitor quotes—ensuring fair competition and best pricing.",
     problem: "Traditional auctions damage vendor relationships. Procurement cycles are slow and manual. Price negotiations happen in silos without market context. You're leaving money on the table.",
     solution: "For Axis Procurement enables blind reverse auctions where vendors compete fairly, plus streamlined RFQ management for spot and contract purchasing. Better prices, better relationships.",
-    image: dashboardOrders,
+    image: dashboardProcurement,
     stats: [
       { value: "22%", label: "Cost Savings" },
       { value: "3x", label: "Faster Cycles" },
@@ -154,7 +156,7 @@ const solutionsData = {
     heroDescription: "Automatically match invoices with contracts, orders, and delivery documents. Highlight discrepancies before they become problems.",
     problem: "Manual invoice matching is slow and error-prone. Discrepancies are caught late, causing disputes and delayed payments. Finance teams are overwhelmed with exception handling.",
     solution: "ForAxis Invoice Reconciliation automates three-way matching, highlights discrepancies instantly, and streamlines the resolution process. Your finance team will thank you.",
-    image: dashboardDocs,
+    image: dashboardInvoices,
     stats: [
       { value: "90%", label: "Auto-Matched" },
       { value: "60%", label: "Faster Processing" },

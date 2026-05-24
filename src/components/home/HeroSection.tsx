@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Sparkles, Globe, Shield, Zap } from "lucide-react";
 import heroShipping from "@/assets/hero-shipping.jpg";
-import foraxisLogo from "@/assets/foraxis-logo.png";
+import daistrixLogo from "@/assets/daistrix-logo.png";
 
 const floatingCards = [
   { icon: Globe, label: "Global Visibility", delay: 0 },

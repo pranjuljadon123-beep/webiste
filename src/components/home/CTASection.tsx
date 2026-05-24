@@ -51,7 +51,7 @@ const CTASection = () => {
                 Ready to Transform Your Operations?
               </h2>
               <p className="text-lg md:text-xl text-primary-foreground/80 mb-8">
-                See how ForAxis can become the execution backbone for your enterprise. 
+                See how Daistrix can become the execution backbone for your enterprise. 
                 Schedule a personalized demo with our team and discover the possibilities.
               </p>
               

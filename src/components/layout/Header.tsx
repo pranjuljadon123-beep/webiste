@@ -10,7 +10,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import foraxisLogo from "@/assets/foraxis-logo.png";
+import daistrixLogo from "@/assets/daistrix-logo.png";
 
 const platformModules = [
   {
@@ -57,8 +57,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <img src={foraxisLogo} alt="ForAxis" className="w-10 h-10 rounded-xl object-cover" />
-            <span className="font-display font-bold text-xl text-foreground">ForAxis</span>
+            <img src={daistrixLogo} alt="Daistrix" className="w-10 h-10 rounded-xl object-cover" />
+            <span className="font-display font-bold text-xl text-foreground">Daistrix</span>
           </Link>
 
           {/* Desktop Navigation */}

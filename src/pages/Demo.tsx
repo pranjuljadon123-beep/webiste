@@ -40,9 +40,9 @@ const Demo = () => {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
             <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} className="lg:sticky lg:top-32">
               <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Get Started</span>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">See ForAxis <span className="gradient-text">in Action</span></h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">See Daistrix <span className="gradient-text">in Action</span></h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Get a personalized demo tailored to your industry and use case. Our team will show you exactly how ForAxis can transform your operations.
+                Get a personalized demo tailored to your industry and use case. Our team will show you exactly how Daistrix can transform your operations.
               </p>
 
               <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.2 }} className="relative rounded-2xl overflow-hidden mb-8 group cursor-pointer">

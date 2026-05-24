@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, title: "Email", details: "contact@foraxis.com", href: "mailto:contact@foraxis.com" },
+    { icon: Mail, title: "Email", details: "contact@daistrix.com", href: "mailto:contact@daistrix.com" },
     { icon: Phone, title: "Phone", details: "+1 (555) 123-4567", href: "tel:+15551234567" },
     { icon: MapPin, title: "Office", details: "San Francisco, CA", href: "#" },
   ];
@@ -30,7 +30,7 @@ const Contact = () => {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Get in <span className="gradient-text">Touch</span></h1>
               <p className="text-lg text-muted-foreground mb-12">
-                Have a question about ForAxis? Want to learn more about how we can help your operations? We'd love to hear from you.
+                Have a question about Daistrix? Want to learn more about how we can help your operations? We'd love to hear from you.
               </p>
               <div className="space-y-6">
                 {contactInfo.map((item) => (

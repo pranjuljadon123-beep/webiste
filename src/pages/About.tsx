@@ -15,7 +15,7 @@ const About = () => {
 
   const milestones = [
     { year: "Early 2026", event: "Three friends in Bangalore come together with a shared vision to fix broken enterprise operations" },
-    { year: "Mid 2026", event: "ForAxis is born — platform development begins with a focus on execution-first design" },
+    { year: "Mid 2026", event: "Daistrix is born — platform development begins with a focus on execution-first design" },
     { year: "2026", event: "Full platform launch with 6 integrated modules, headquartered in Bangalore, India" },
   ];
 
@@ -32,7 +32,7 @@ const About = () => {
       <section className="py-20 lg:py-32 gradient-subtle overflow-hidden">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl mx-auto text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">About ForAxis</span>
+            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">About Daistrix</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Building the Future of{" "}
               <span className="gradient-text">Operations</span>
@@ -67,12 +67,12 @@ const About = () => {
               <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Our Mission</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Empowering Operations Excellence</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              ForAxis was founded in 2026 by three friends in Bangalore, India, who saw
+              Daistrix was founded in 2026 by three friends in Bangalore, India, who saw
                 firsthand how broken enterprise operations were — scattered across spreadsheets,
                 emails, and disconnected tools. They knew there had to be a better way.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                What started as a shared frustration became ForAxis — a platform where every order,
+                What started as a shared frustration became Daistrix — a platform where every order,
                 document, shipment, and invoice is connected. Where AI doesn't just predict — it
                 recommends and executes. Built from Bangalore for the world.
               </p>
@@ -94,7 +94,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-2xl mx-auto mb-16">
             <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Our Journey</span>
-            <h2 className="text-3xl md:text-4xl font-bold">The ForAxis Story</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">The Daistrix Story</h2>
           </motion.div>
           <div className="max-w-3xl mx-auto">
             <div className="relative">
@@ -143,7 +143,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Born in Bangalore</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Three friends, one shared frustration, and a relentless drive to fix enterprise operations.
-              ForAxis is proudly headquartered in Bangalore, India — building world-class technology
+              Daistrix is proudly headquartered in Bangalore, India — building world-class technology
               for global enterprises.
             </p>
             <div className="flex items-center justify-center gap-2 mt-6 text-muted-foreground">

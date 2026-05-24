@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Linkedin, Twitter, Youtube, Mail } from "lucide-react";
-import foraxisLogo from "@/assets/foraxis-logo.png";
+import daistrixLogo from "@/assets/daistrix-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -40,8 +40,8 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-8 lg:mb-0">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={foraxisLogo} alt="ForAxis" className="w-10 h-10 rounded-xl object-cover" />
-              <span className="font-display font-bold text-xl">ForAxis</span>
+              <img src={daistrixLogo} alt="Daistrix" className="w-10 h-10 rounded-xl object-cover" />
+              <span className="font-display font-bold text-xl">Daistrix</span>
             </Link>
             <p className="text-primary-foreground/70 text-sm mb-6 max-w-xs">
               The execution backbone for complex operations, with intelligence layered on top.
@@ -97,12 +97,12 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {currentYear} ForAxis. All rights reserved.
+            © {currentYear} Daistrix. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-primary-foreground/50 text-sm">
             <Mail size={14} />
-            <a href="mailto:contact@foraxis.com" className="hover:text-primary-foreground transition-colors">
-              contact@foraxis.com
+            <a href="mailto:contact@daistrix.com" className="hover:text-primary-foreground transition-colors">
+              contact@daistrix.com
             </a>
           </div>
         </div>

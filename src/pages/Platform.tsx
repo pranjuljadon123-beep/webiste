@@ -100,7 +100,7 @@ const Platform = () => {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-2xl mx-auto mb-16">
             <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Enterprise Ready</span>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Built for Enterprise</h2>
-            <p className="text-lg text-muted-foreground">Every aspect of ForAxis is designed for scale, security, and reliability.</p>
+            <p className="text-lg text-muted-foreground">Every aspect of Daistrix is designed for scale, security, and reliability.</p>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-8">
             {capabilities.map((cap, index) => (
@@ -120,7 +120,7 @@ const Platform = () => {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="relative rounded-3xl overflow-hidden gradient-hero p-12 lg:p-20 text-center">
             <div className="max-w-2xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-6">Ready to see the platform in action?</h2>
-              <p className="text-lg text-primary-foreground/80 mb-8">Schedule a personalized demo and discover how ForAxis can transform your operations.</p>
+              <p className="text-lg text-primary-foreground/80 mb-8">Schedule a personalized demo and discover how Daistrix can transform your operations.</p>
               <Link to="/demo"><Button size="xl" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 group">Schedule Your Demo<ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" /></Button></Link>
             </div>
           </motion.div>

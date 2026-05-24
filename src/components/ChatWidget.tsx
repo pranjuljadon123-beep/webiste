@@ -11,7 +11,7 @@ const CHAT_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/chat`;
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Msg[]>([
-    { role: "assistant", content: "Hey there! 👋 I'm the ForAxis AI assistant. Ask me anything about our platform, or let me know if you'd like to book a demo!" },
+    { role: "assistant", content: "Hey there! 👋 I'm the Daistrix AI assistant. Ask me anything about our platform, or let me know if you'd like to book a demo!" },
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -168,7 +168,7 @@ export default function ChatWidget() {
             <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-primary text-primary-foreground rounded-t-2xl">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-primary-foreground/70 animate-pulse" />
-                <span className="font-semibold text-sm">ForAxis AI</span>
+                <span className="font-semibold text-sm">Daistrix AI</span>
               </div>
               <button onClick={() => setOpen(false)} className="p-1 rounded-lg hover:bg-primary-foreground/10 transition-colors">
                 <X className="w-4 h-4" />
@@ -220,7 +220,7 @@ export default function ChatWidget() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && send()}
-                  placeholder="Ask about ForAxis..."
+                  placeholder="Ask about Daistrix..."
                   className="flex-1 px-3 py-2 text-sm bg-muted rounded-xl border-none outline-none focus:ring-2 focus:ring-primary/30 placeholder:text-muted-foreground"
                   disabled={isLoading}
                 />
